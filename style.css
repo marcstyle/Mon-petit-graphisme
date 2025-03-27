@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 0px 100px;
+    margin: auto;
+    font-family: poppins;
+}
+/*en tete et menu de navigation*/
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu,a{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+/*main*/
+/*section 1 la bannière et ses elements*/
+.banniere{
+    background-image: url(backgroung_image.jpg);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-weight: normal;
+    font-size: 40px;
+    color: white;
+}
+
+/*section 2 titre, services, temoignage*/
+h2{
+    margin: 50px 200px;
+    font-weight: normal; 
+    text-align: center;
+    font-size: 25px;
+}
+.services{
+    display: flex;
+    margin: 80px 200px;
+    gap: 30px;
+}
+.service{
+    text-align: center; 
+}
+.texte{
+    margin-top: 30px;
+    font-size: 18px;
+    text-align: center;
+}
+.temoignage{
+    justify-content: center;
+    text-align: center;
+    margin: 0px 400px;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    font-weight: normal;
+    margin: 20px 10px;  
+}
+/*Footer*/
+footer{
+    background-color: #5d3a96;
+    margin-bottom: 15px;
+}
+h5{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+    font-size: 25px;
+}
+.menubas{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 15px;
+}
+h6{
+    color: gray;
+    font-size: 15px;
+    margin: 10px;
+}
+.lemenubas{
+    color: white;
+}
+.coor{
+    color: white;
+    list-style-type: none;
+    margin-left: 40px;
+}
+.point{
+    color: white;
+    margin-left: 50px;
+}
+.lienfoot{
+    color: white;
+    list-style-type: none;
+}
+
+
