@@ -85,6 +85,9 @@ h5{
     color: gray;
     font-size: 25px;
 }
+.icons a{
+    color: rgb(193, 185, 185);
+}
 .menubas{
     display: flex;
     justify-content: space-around;
